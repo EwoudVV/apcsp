@@ -1,4 +1,7 @@
 # makes stuff lowercase until exit
-while True:
+def main():
     text = input("type stuff here: ")
     print(text.lower())
+
+if __name__ == "__main__":
+	main()
